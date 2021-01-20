@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TAO 3.4.0-sprint146\n"
+"PO-Revision-Date: 2021-01-20T12:06:22\n"
+"Last-Translator: TAO Translation Team <translation@tao.lu>\n"
+"MIME-Version: 1.0\n"
+"Language: en-US\n"
+"sourceLanguage: en-US\n"
+"targetLanguage: en-US\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "All rights reserved."
+msgstr ""
+
+msgid "Hello World"
+msgstr ""
+
+#, tao-public
+msgid "openPCI Themes"
+msgstr ""
+
+#, tao-public
+msgid "Template"
+msgstr ""
+
