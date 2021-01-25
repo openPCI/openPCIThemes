@@ -27,7 +27,7 @@ return array(
     'label' => 'openPCI Themes',
     'description' => 'Themes for TAO',
     'license' => 'GPL-2.0',
-    'version' => '0.0.1',
+    'version' => '0.0.2',
     'author' => 'Jeppe Bundsgaard',
     'requires' => array(
         'tao' => '>=46.13.0'
