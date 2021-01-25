@@ -1,0 +1,133 @@
+.qti-itemBody {
+
+	
+}
+/*.qti-prompt {
+	background-color:lightgreen;
+}*/
+/* Den mørke bar i top og bund */
+.dark-bar {
+	
+}
+/* Skjult som udgangspunkt */
+.feedback-box {
+	
+}
+/* Hele testområdet */
+.runner {
+
+	
+}
+/* Hele testområdet */
+.test-runner-scope {
+	
+}
+/* På den blå fremgangsbar */
+.action-bar .content-action-bar .horizontal-action-bar .top-action-bar {
+	
+}
+/* På den blå bar i bunden */
+.action-bar .content-action-bar .horizontal-action-bar .bottom-action-bar .key-navigation-group {
+	
+}
+/* Rundt om hele itemmet */
+.size-wrapper {
+}
+/* Testtagernavn og sektion af testen */
+.title-box {
+	
+}
+/* Kontrol-tekster (fx testtagernavn osv.) */
+.qti-controls {
+	
+}
+
+.timer-box {
+	
+}
+.progress-box {
+	
+}
+.progressbar {
+	
+}
+.connectivity-box .connected {
+
+	
+}
+.test-runner-sections {
+	
+}
+/* Rundt om selve itemmet */ 
+.qti-interaction .qti-blockInteraction .qti-graphicInteraction .qti-graphicGapMatchInteraction .clearfix .responsive {
+	
+}
+.qti-prompt-container {
+	
+}
+.qti-prompt p:last-of-type { 
+}
+.qti-item H4 {
+	background-color: #48c9b0  !important;
+	border: 0px solid white;
+	margin:0px !important;
+	padding:  15px 27px  10px 27px  !important;
+	font-size:1.6em !important;
+	color:#444;
+	border-radius: .7em .7em 0em 0em  ;
+  font-weight:bold !important;
+}
+.qti-item H5 {
+	background-color: #76d7c4 ;
+	border: 0px solid white;
+	margin:0px !important;
+	padding: 10px 27px  10px 27px  !important;
+	font-size:1.5em !important;
+	color:#555;
+
+}
+.qti-item H6 {
+	background-color:  #a3e4d7  ;
+	border: 0px solid white;
+	padding: 10px 27px  15px 27px  !important;
+	margin: 0px !important;
+	font-size:1.5em !important;
+	color:#666;
+	border-radius:  0em 0em .7em .7em  
+
+}
+
+.content-wrapper {
+	background-color: lightblue;
+}
+.qti-item {
+    background-color:   #fcf3cf   !important;
+	font-family:Verdana !important;
+}
+
+.qti-item table.matrix th:first-child {
+        width:40% !important;
+}
+.qti-interaction .instruction-container .feedback-success {
+	display:none;
+}
+
+.wordgame .wordgame-text {
+    border: 1px solid black;
+    display: inline-block;
+    background: #FFF;
+    margin: 03px 5px;
+    font-size: 12pt;
+    line-height: 1.2;
+    padding: 4px;
+    margin: 3px;
+}
+.wordgame .wordgame-cell {
+    background: #5cc5e3;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #004c6e;
+    font-size: 12pt;
+    text-align: center;
+    overflow: hidden;
+}

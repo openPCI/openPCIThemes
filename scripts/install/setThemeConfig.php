@@ -33,11 +33,14 @@ use oat\tao\model\theme\ThemeService;
 // Item themes
 // 'Name of the theme' => Default theme
 $itemThemes = array(
+'openPCIThemes'=>true
 );
 
 $defaultTheme = 'tao';
 
 foreach($itemThemes as $themeName => $isDefault){
+echo "Ho!";
+exit;
     $pathFragment = StringUtils::removeSpecChars($themeName);
     $themeId = StringUtils::camelize($pathFragment);
     if($isDefault) {
@@ -46,7 +49,7 @@ foreach($itemThemes as $themeName => $isDefault){
     ThemeRegistry::getRegistry()->registerTheme(
         $themeId,
         $themeName,
-        implode(DIRECTORY_SEPARATOR, array('openPCIThemes', 'views', 'css', 'themes', 'items', $pathFragment, 'theme.css')), array('items')
+        implode(DIRECTORY_SEPARATOR, array('openPCI', 'views', 'css', 'themes', 'items', $pathFragment, 'theme.css')), array('items')
     );
 }
 

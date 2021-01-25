@@ -5,7 +5,7 @@ use oat\tao\helpers\ApplicationHelper;
 <footer class="dark-bar">
     © 2013 - <?= date('Y') ?> · <span class="tao-version"><?= ApplicationHelper::getVersionName() ?></span> ·
     Open Assessment Technologies S.A.
-    · <?= __('All rights reserved.') ?>
+    · <?= __('All rights reserved.').__(' Themes from OpenPCIThemes') ?>
     <?php $releaseMsgData = Layout::getReleaseMsgData();
     if ($releaseMsgData['msg'] && ($releaseMsgData['is-unstable'] || $releaseMsgData['is-sandbox'])): ?>
         <span class="rgt">

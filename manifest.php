@@ -38,7 +38,9 @@ return array(
     ),
     'install' => array(
         'php' => array(
-            __DIR__.'/scripts/install/setThemeConfig.php'
+            __DIR__.'/scripts/install/setThemeConfig.php',
+//              __DIR__.'/scripts/install/SetItemThemes::class',
+			'openPCI/openPCIThemes/scripts/install/SetPlatformTheme::class'
         )
     ),
     'uninstall' => array(
@@ -55,5 +57,18 @@ return array(
     ),
     'extra' => array(
         'structures' => dirname(__FILE__).DIRECTORY_SEPARATOR.'controller'.DIRECTORY_SEPARATOR.'structures.xml',
-    )
+    )#,
+//     'available' => [
+//           [
+//               'id' => 'taoThemeDefault',
+//               'name' => 'TAO',
+//               'path' => '/taoFoo/views/css/themes/items/default/theme.css'
+//           ],
+//           [
+//               'id' => 'openPCITheme',
+//               'name' => 'openPCITheme',
+//               'path' => '/openPCIThemes/views/css/themes/items/other/openPCIThemes.css'
+//           ]
+//      ],
+//      'default' => 'openPCITheme' // note the prefix
 );

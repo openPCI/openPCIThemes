@@ -3,6 +3,7 @@
 <structures>
 	<structure id="openPCIThemes_main" name="openPCI Themes" level="15" group="main">
 		<description />
+		<icon id="icon-folder"/>
 		<sections>
 			<section id="openPCIThemes_main" name="openPCI Themes" url="/openPCIThemes/OpenPCIThemes/index" />
 			<section id="openPCIThemes_other" name="Template" url="/openPCIThemes/OpenPCIThemes/templateExample" />
